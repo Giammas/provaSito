@@ -58,6 +58,15 @@ body{
     font-size: 60px;
 }
 
+.centrato_piccolo{
+    text-align: center;
+    color:#297adc;
+    margin-top: 4px;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight:500;
+}
+
 .centrato2{
     text-align: center;
     margin-top: 180px;
