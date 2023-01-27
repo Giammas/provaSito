@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.conatiner{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.btn{
+    border: 1px solid #e335ef;
+    border-radius: 8px;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.25s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn1{
+    color: #e335ef;
+}
+
+.btn1:hover{
+    color: #fff;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #e335ef ;
+    z-index: -1;
+    transition: 0.25s;
+}
+
+.btn1::before{
+    bottom: 0;
+    border-radius: 40% 40% 0 0;
+}
+
+.btn1:hover::before{
+    height: 180%;
+}
+
+.centrato{
+    text-align: center;
+    color:#297adc;
+    margin-top: 5px;
+    font-family: "Montserrat";
+    font-size: 60px;
+}
+
+.centrato2{
+    text-align: center;
+    margin-top: 180px;
+}
