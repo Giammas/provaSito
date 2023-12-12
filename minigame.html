@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniGame</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="shortcut icon" type="image/png" href="icona.png">
+</head>
+
+<body>
+    <div id="titolo">
+        <p style="font-size: 5vh;"><a href="index.html">Caccia alla talpa: </a></p>
+        <p>Prendi MrPoz prima che ti colpisca!</p>
+    </div>
+    <div id="campo">
+        <img onclick="clickImm(); playAudio();" id="foto" src="pozz.jpg" alt="">
+    </div>
+    <div id="contenitore">
+        <p class="sinistra" id="time">Tempo: 00:00:00</p>
+        <p class="destra" id="punti">MrPoz catturati: 0</p>
+    </div>
+
+    <button id="bottone" onclick="gioca()">Avvia gioco</button>
+
+    <audio id="myAudio">
+        <source src="orgasm.mp3" type="audio/mp3">
+    </audio>
+    <script src="script2.js"></script>
+</body>
+
+</html>
