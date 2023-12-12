@@ -1,0 +1,8 @@
+<html>
+<head>
+<title>Manutenzione</title>
+</head>
+<body>
+<p>Cazzo fai? Il sito è in manutenzione non rompere i coglioni</p>
+</body>
+</html>
